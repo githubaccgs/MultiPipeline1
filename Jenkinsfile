@@ -23,6 +23,8 @@ pipeline {
             when {
                 branch 'development' 
                   echo ".......inside branch development ............"
+                  sh (" chmod +x testscript.sh ")
+                  sh ("./testscript.sh")
             }
             steps {
                   echo ".......inside branch development and steps xxxxxx ............"
