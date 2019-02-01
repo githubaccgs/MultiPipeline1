@@ -32,6 +32,7 @@ pipeline {
         }
         stage('Deploy for production') {
             when {
+                 branch 'production' 
                 // echo ".......inside branch production ............"
             }
             steps {
