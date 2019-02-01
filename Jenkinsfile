@@ -11,12 +11,12 @@ pipeline {
     stages {
         stage('Build') {
             steps {
-             //   echo ".......inside build phase............"
+                   echo ".......inside build phase............"
             }
         }
         stage('Test') {
             steps {
-                 // echo ".......inside test phase............"
+                   echo ".......inside test phase............"
             }
         }
         stage('Deliver for development') {
