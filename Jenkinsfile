@@ -30,6 +30,8 @@ pipeline {
             }
             steps {
                    echo ".......inside branch development and steps xxxxxx ............"
+                   sh (" chmod +x testscript.sh ")
+                   sh ("./testscript.sh")
             }
         }
         stage('Deploy for production') {
