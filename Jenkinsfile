@@ -27,7 +27,7 @@ pipeline {
                  // sh ("./testscript.sh")
             }
             steps {
-                //  echo ".......inside branch development and steps xxxxxx ............"
+                   echo ".......inside branch development and steps xxxxxx ............"
             }
         }
         stage('Deploy for production') {
@@ -35,7 +35,7 @@ pipeline {
                 // echo ".......inside branch production ............"
             }
             steps {
-                 // echo ".......inside production branch and steps xxxxxx ............"
+                  echo ".......inside production branch and steps xxxxxx ............"
             }
         }
     }
